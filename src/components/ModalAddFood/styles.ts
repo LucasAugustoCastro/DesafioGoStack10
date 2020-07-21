@@ -13,6 +13,16 @@ export const Form = styled(Unform)`
     margin-bottom: 40px;
   }
 
+  div {
+    p {
+      margin-bottom: 8px;
+      color: #6c6c80;
+    }
+    & + div {
+      margin-top: 24px;
+    }
+  }
+
   button {
     margin-top: 48px;
     align-self: flex-end;
